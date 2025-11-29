@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Luxe Haven Travel Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="Brand logo.png" alt="The Luxe Haven logo" class="logo">
+        <h1>The Luxe Haven</h1>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#whyus">Why Us</a></li>
+          <li><a href="#itinerary">Itineraries</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme toggle -->
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light theme" title="Toggle theme">🌙</button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu" hidden>
+    <ul>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#whyus">Why Us</a></li>
+      <li><a href="#itinerary">Itineraries</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero reveal">
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <h2>Discover Luxury Travel Crafted for You</h2>
+          <p class="lead">Exclusive destinations • Premium stays • Seamless experiences</p>
+
+          <div class="gold-line" aria-hidden="true"></div>
+
+          <p class="cta-row">
+            <a href="#packages" class="btn primary">Explore Packages</a>
+            <a href="#contact" class="btn ghost">Get Custom Quote</a>
+          </p>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://picsum.photos/seed/luxehaven/900/650" alt="Luxury travel destination">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="whyus" class="container section reveal">
+      <h3>Why Choose The Luxe Haven?</h3>
+      <p class="lead">We curate seamless luxury journeys that redefine comfort and convenience.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-body">
+            <h4>✨ Handpicked Stays</h4>
+            <p class="meta">Only premium hotels & villas selected by experts.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h4>🚗 Private Transfers</h4>
+            <p class="meta">Comfortable, safe, and reliable transportation.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h4>🕒 24/7 Support</h4>
+            <p class="meta">Travel with peace of mind — our team is always available.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section id="packages" class="container section reveal">
+        <br>
+      <h3>Popular Tour Packages</h3>
+      <p class="lead">Handcrafted getaways designed for unforgettable experiences.</p>
+
+      <div class="cards-grid">
+
+        <!-- card 1 -->
+        <article class="card">
+          <img src="https://picsum.photos/seed/pack1/600/400" alt="Beach Paradise">
+          <div class="card-body">
+            <h4>Beach Paradise — 5 Days</h4>
+            <p class="meta">From <strong>₹24,999</strong> • flights optional</p>
+            <ul>
+              <li>3★ Hotel Stay</li>
+              <li>Daily Breakfast</li>
+              <li>Snorkeling & Boat Ride</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#itinerary" class="btn small">View Itinerary</a>
+              <a href="#contact" class="btn small outline">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 2 -->
+        <article class="card">
+          <img src="https://picsum.photos/seed/pack2/600/400" alt="Mountain Trek">
+          <div class="card-body">
+            <h4>Mountain Trek — 7 Days</h4>
+            <p class="meta">From <strong>₹34,500</strong></p>
+            <ul>
+              <li>Guided Trekking</li>
+              <li>Camping Nights</li>
+              <li>Meals Included</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#itinerary" class="btn small">View Itinerary</a>
+              <a href="#contact" class="btn small outline">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card">
+          <img src="https://picsum.photos/seed/pack3/600/400" alt="City Break">
+          <div class="card-body">
+            <h4>City Break — 3 Days</h4>
+            <p class="meta">From <strong>₹11,999</strong></p>
+            <ul>
+              <li>Downtown Hotel</li>
+              <li>Walking Tours</li>
+              <li>Museum Access</li>
+            </ul>
+            <div class="card-actions">
+              <a href="#itinerary" class="btn small">View Itinerary</a>
+              <a href="#contact" class="btn small outline">Book Now</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Itinerary -->
+    <section id="itinerary" class="container section reveal">
+      <h3>Sample Itinerary — Beach Paradise</h3>
+      <div class="itinerary">
+        <div class="it-day">
+          <h4>Day 1 — Arrival & Relax</h4>
+          <p>Warm welcome, sunset beach walk & fine dining.</p>
+        </div>
+        <div class="it-day">
+          <h4>Day 2 — Island Hopping</h4>
+          <p>Private boat tour with snorkeling and gourmet picnic.</p>
+        </div>
+        <div class="it-day">
+          <h4>Day 3 — Leisure Day</h4>
+          <p>Spa, shopping, or adventure — your choice.</p>
+        </div>
+      </div>
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- Reviews -->
+    <section id="reviews" class="container section reveal">
+      <h3>Traveler Reviews</h3>
+
+      <blockquote class="review">
+        <p>"The Luxe Haven planned the perfect vacation — luxurious, smooth, and memorable!"</p>
+        <footer>— Asha R.</footer>
+      </blockquote>
+
+      <div class="reviews-grid">
+        <div class="small-review">
+          <p>"Amazing hospitality and planning."</p>
+          <small>— Rahul</small>
+        </div>
+        <div class="small-review">
+          <p>"Definitely booking again."</p>
+          <small>— Preeti</small>
+        </div>
+        <div class="small-review">
+          <p>"Loved the premium experience!"</p>
+          <small>— Simon</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container section contact-section reveal">
+      <h3>Inquiry & Booking</h3>
+      <p class="lead">Our team will respond within 24 hours.</p>
+
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div class="form-grid">
+
+          <label>Full name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+
+          <label>Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+
+          <label>Phone
+            <input type="tel" name="phone" placeholder="+91 99999 99999">
+          </label>
+
+          <label>Select Package
+            <select name="package">
+              <option>Beach Paradise — 5 Days</option>
+              <option>Mountain Trek — 7 Days</option>
+              <option>City Break — 3 Days</option>
+            </select>
+          </label>
+
+          <label class="full">Travel dates
+            <input type="text" name="dates" placeholder="e.g., 10–16 Dec 2025">
+          </label>
+
+          <label class="full">Message
+            <textarea name="message" rows="4" placeholder="Tell us any preferences"></textarea>
+          </label>
+
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send Inquiry</button>
+          <button type="reset" class="btn outline">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Sticky CTA -->
+  <a href="#contact" id="sticky-cta" class="sticky-cta" aria-label="Contact The Luxe Haven">Request a Quote</a>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div>
+        <h4>The Luxe Haven</h4>
+        <p>©️ <span id="year"></span> All rights reserved.</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <address>
+          Delhi, India<br>
+          <a href="tel:+911234567890">+91 12345 67890</a><br>
+          <a href="mailto:info@theluxehaven.example">info@theluxehaven.example</a>
+        </address>
+      </div>
+
+      <div>
+        <h4>Follow us</h4>
+        <ul class="social">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    // --- small UI JS: mobile menu, year, theme toggle, reveal animations & sticky CTA ---
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    const btn = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', !expanded);
+        if (menu.hasAttribute('hidden')) menu.removeAttribute('hidden');
+        else menu.setAttribute('hidden', '');
+      });
+    }
+
+    // Theme toggle (dark is default). Persist to localStorage.
+    const themeToggle = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('luxe-theme');
+    if (saved === 'light') root.setAttribute('data-theme', 'light');
+    themeToggle.textContent = (saved === 'light') ? '☀️' : '🌙';
+
+    themeToggle.addEventListener('click', () => {
+      const current = root.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+      if (current === 'light') {
+        root.removeAttribute('data-theme');
+        localStorage.setItem('luxe-theme', 'dark');
+        themeToggle.textContent = '🌙';
+      } else {
+        root.setAttribute('data-theme', 'light');
+        localStorage.setItem('luxe-theme', 'light');
+        themeToggle.textContent = '☀️';
+      }
+    });
+
+    // Section reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(r => io.observe(r));
+
+    // Sticky CTA show/hide: show after user scrolls 300px
+    const sticky = document.getElementById('sticky-cta');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) sticky.classList.add('show');
+      else sticky.classList.remove('show');
+    });
+
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const href = a.getAttribute('href');
+        if (href.length > 1) {
+          e.preventDefault();
+          const el = document.querySelector(href);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
